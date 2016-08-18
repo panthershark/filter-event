@@ -1,0 +1,29 @@
+{
+  "name": "filter-event",
+  "version": "0.0.0",
+  "description": "Mercury.js / vdom compatible event for taking a firehose of events and listening to specific ones.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/filter.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tommymessbauer/filter-event.git"
+  },
+  "author": "Tommy Messbauer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tommymessbauer/filter-event/issues"
+  },
+  "homepage": "https://github.com/tommymessbauer/filter-event#readme",
+  "dependencies": {
+    "value-event": "^5.1.1"
+  },
+  "devDependencies": {
+    "event-sinks": "^2.2.0",
+    "global": "^4.3.0",
+    "synthetic-dom-events": "Raynos/synthetic-dom-events",
+    "tape": "^4.6.0",
+    "timers": "^0.1.1"
+  }
+}
